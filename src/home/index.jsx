@@ -6,6 +6,9 @@ import React from 'react'
 function Home() {
   return (
     <div>
+      <div className="bg-red-500 text-white text-center py-2 px-4">
+        Due to the exhaustion of free-tier API keys from third-party services, features not working as expected.
+      </div>
       <Header/>
       <div>
       {/* <img src={'/grid.svg'} className="absolute z-[-10] w-full" 
